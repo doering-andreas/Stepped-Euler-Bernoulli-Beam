@@ -1,11 +1,11 @@
 # Stepped-Euler-Bernoulli-Beam
-Inhomogeneous bending stiffness in Euler-Bernoulli beam modelled with singularity functions.
+Analytical solution of the Euler-Bernoulli bending beam for a non-constant bending stiffness using singularity functions. 
+The solution is available for a beam with two supports `oneFieldBeam.mlx` and a beam with three supports `twoFieldBeam.mlx`. 
+The boundary conditions of supports can be chosen between fixed and pinned end.
 
 The live script `examples.mlx` contains examples for the functions `oneFieldBeam.mlx` and `twoFieldBeam.mlx`.
 
-The live function `oneFieldBeam.mlx` calculates the displacement, rotation, curvature and bending moment for a single-span beam with changing bending stiffness. You can choose between pinned and fixed ends.
-
-The live function `twoFieldBeam.mlx` calculates the displacement, rotation, curvature and bending moment for a two-span beam (continuous beam) with changing bending stiffness. You can choose between pinned and fixed ends.
+The live functions `oneFieldBeam.mlx` and `twoFieldBeam.mlx` calculates the displacement, rotation, curvature and bending moment for a single-span beam with changing bending stiffness. 
 
 The live functions uses singularity functions to implement the changing bending stiffness in the beam.
 Also the load and support forces are modelled with singularity functions.

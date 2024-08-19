@@ -5,7 +5,7 @@ The boundary conditions of supports can be chosen between fixed and pinned end.
 
 The live script `examples.mlx` contains examples for the functions `oneFieldBeam.mlx` and `twoFieldBeam.mlx`.
 
-The live functions `oneFieldBeam.mlx` and `twoFieldBeam.mlx` calculates the displacement, rotation, curvature and bending moment for a single-span beam with changing bending stiffness. 
+The live functions `oneFieldBeam.mlx` and `twoFieldBeam.mlx` calculates the displacement, rotation, curvature and bending moment for a single-span and a two-span beam with changing bending stiffness. 
 
 The live functions uses singularity functions to implement the changing bending stiffness in the beam.
 Also the load and support forces are modelled with singularity functions.
